@@ -1,7 +1,7 @@
 package main;
 
-import kinematics.EnergiesRevised;
-import kinematics.Work;
+import energy.EnergiesRevised;
+import work.Work;
 
 public class PhysicsDriver {
 

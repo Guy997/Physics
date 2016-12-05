@@ -1,4 +1,6 @@
-package kinematics;
+package energy;
+
+import java.util.Scanner;
 
 public class EnergiesRevised {
 	
@@ -9,6 +11,7 @@ public class EnergiesRevised {
 	
 	public EnergiesRevised(double energies , boolean hasKE, boolean hasUG, boolean hasUS,
 			double m, double mKg, double v, double h, double kSpring, double x, double xCm){
+		Scanner s = new Scanner(System.in);
 		solve(energies, hasKE, hasUG, hasUS, m, mKg, v, h, kSpring, x, xCm);
 	}
 	
@@ -136,6 +139,7 @@ public class EnergiesRevised {
 	
 	public static void solve(double energies, boolean hasKE, boolean hasUG, boolean hasUS,
 			double m, double mKg, double v, double h, double kSpring, double x, double xCm){
+		
 		if(energies == 1){
 			if(hasKE){
 				System.out.println("KE = " + findKE(v, m, mKg));

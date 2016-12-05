@@ -1,4 +1,4 @@
-package kinematics;
+package energy;
 
 import java.util.ArrayList;
 

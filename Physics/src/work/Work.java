@@ -1,4 +1,4 @@
-package kinematics;
+package work;
 
 public class Work {
 	
