@@ -1,7 +1,5 @@
 package energy;
 
-import java.util.Scanner;
-
 public class EnergiesRevised {
 	
 	//Energies
@@ -11,7 +9,7 @@ public class EnergiesRevised {
 	
 	public EnergiesRevised(double energies , boolean hasKE, boolean hasUG, boolean hasUS,
 			double m, double mKg, double v, double h, double kSpring, double x, double xCm){
-		Scanner s = new Scanner(System.in);
+		//Scanner s = new Scanner(System.in);
 		solve(energies, hasKE, hasUG, hasUS, m, mKg, v, h, kSpring, x, xCm);
 	}
 	

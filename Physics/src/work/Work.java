@@ -4,8 +4,8 @@ public class Work {
 	
 	private static double work;
 	
-	public Work(double f, double d, double energy_init, double energy){
-		solve(f, d, energy_init, energy);
+	public Work(double f, double d, double energy_init, double energy, double energyTotal){
+		solve(f, d, energy_init, energy, energyTotal);
 	}
 	
 	static double findWorkForce(double f, double d){
@@ -23,10 +23,10 @@ public class Work {
 			return work;
 		}
 	}
-	
+	/*
 	static double findEnergy(double f, double d, double energy, double energy_init, double energyTotal){
 		
-	}
+	}*/
 	static double findForce(double d, double energy, double energy_init, double energyTotal){
 		double force;
 		findWorkEnergy(energy_init, energy, energyTotal);
